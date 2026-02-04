@@ -75,3 +75,6 @@
 
 let a: number | string = 12
 a = "boss"
+
+//? Type annotations in a functions
+function abcd(a: number, b: string): void {}
