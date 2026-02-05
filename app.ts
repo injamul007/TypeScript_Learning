@@ -73,8 +73,28 @@
 //? Understanding type inference
 //? Type annotations
 
-let a: number | string = 12
-a = "boss"
+// let a: number | string = 12
+// a = "boss"
 
 //? Type annotations in a functions
-function abcd(a: number, b: string): void {}
+// function abcd(a: number, b: string): void {}
+
+//? Interfaces and Type Aliases
+//? Defining interfaces
+//? Using Interfaces to define object shapes
+//? Extending interfaces
+//? Type aliases
+//? Intersection types
+
+// interface User{
+//   name: string,
+//   email: string,
+//   password: string,
+//   gender?: string
+// }
+
+// function getDataOfUser(obj: User) {
+  
+// }
+
+// getDataOfUser({name: "boss", email: "boss@gmail.com", password: "abcd",})
