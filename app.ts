@@ -98,3 +98,19 @@
 // }
 
 // getDataOfUser({name: "boss", email: "boss@gmail.com", password: "abcd",})
+
+//? Extending interfaces
+
+// interface User {
+//   name: string,
+//   email: string,
+//   password: string
+// }
+
+// interface Admin extends User {
+//   admin: boolean
+// }
+
+// function abcd(obj: Admin) {
+//   obj
+// }
