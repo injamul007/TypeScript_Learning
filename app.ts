@@ -114,3 +114,18 @@
 // function abcd(obj: Admin) {
 //   obj
 // }
+
+//? Type aliases
+//? Intersection types
+
+// type value = string |  number | null;
+
+// let a: value;
+
+// a = undefined
+
+// function abcd(obj: value) {
+  
+// }
+
+// abcd("")
